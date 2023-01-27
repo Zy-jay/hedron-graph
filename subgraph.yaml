@@ -4,7 +4,7 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: HEX
-    network: "mainnet"
+    network: mainnet
     source:
       address: "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39"
       abi: HEX
@@ -31,7 +31,7 @@ dataSources:
       file: ./src/hex.ts
   - kind: ethereum/contract
     name: HDRN
-    network: "mainnet"
+    network: mainnet
     source:
       address: "0x3819f64f282bf135d62168C1e513280dAF905e06"
       abi: HDRN
@@ -69,7 +69,7 @@ dataSources:
       file: ./src/hdrn.ts
   - kind: ethereum/contract
     name: HSIM
-    network: "mainnet"
+    network: mainnet
     source:
       address: "0x8BD3d1472A656e312E94fB1BbdD599B8C51D18e3"
       abi: HSIM
@@ -102,7 +102,7 @@ dataSources:
       file: ./src/hsim.ts
   - kind: ethereum/contract
     name: MAXI
-    network: "mainnet"
+    network: mainnet
     source:
       address: "0x0d86EB9f43C57f6FF3BC9E23D8F9d82503f0e84b"
       abi: MAXI
@@ -124,7 +124,7 @@ dataSources:
       file: ./src/maxi.ts
   - kind: ethereum/contract
     name: PLSD
-    network: "mainnet"
+    network: mainnet
     source:
       address: "0x34F0915a5f15a66Eba86F6a58bE1A471FB7836A7"
       abi: PLSD
@@ -149,7 +149,7 @@ dataSources:
   # If there is a better way to do this, I'm all ears...
   - kind: ethereum/contract
     name: Gnosis111
-    network: "mainnet"
+    network: mainnet
     source:
       address: "0x34CfAC646f301356fAa8B21e94227e3583Fe3F5F"
       abi: Gnosis111
@@ -169,7 +169,7 @@ dataSources:
       file: ./src/gnosis111.ts
   - kind: ethereum/contract
     name: HSI
-    network: "mainnet"
+    network: mainnet
     source:
       address: "0x64De999CE2FCbCf4f37AB16341de78DDF8722aD2"
       abi: HSI
